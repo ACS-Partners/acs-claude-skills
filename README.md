@@ -1,7 +1,8 @@
 # ACS Claude Skills
 
-Marketplace privée de skills [Claude Code](https://claude.com/claude-code) partagées entre associés ACS Partners.
+Marketplace publique de skills [Claude Code](https://claude.com/claude-code) partagées par ACS Partners.
 Chaque skill est un **plugin** indépendant : on installe celles qu'on veut, on les met à jour d'une commande.
+**Aucun compte GitHub n'est nécessaire.**
 
 ## Skills disponibles
 
@@ -12,8 +13,9 @@ Chaque skill est un **plugin** indépendant : on installe celles qu'on veut, on 
 ## Prérequis
 
 1. Claude Code installé (`claude --version`).
-2. Accès en lecture à ce dépôt privé : être membre de l'org `ACS-Partners` ou collaborateur du dépôt.
-3. Git authentifié auprès de GitHub sur ta machine — le plus simple : `gh auth login` puis `gh auth setup-git`.
+2. `git` installé (`git --version`) — Claude Code s'en sert pour télécharger la marketplace.
+
+Pas de compte GitHub, pas de connexion : le dépôt est public.
 
 ## Installation — prompt à copier-coller dans Claude Code
 
@@ -21,7 +23,7 @@ Ouvre `claude` dans un terminal et colle :
 
 ```text
 Installe la marketplace de skills ACS et le plugin deepdive :
-1. Vérifie que j'ai accès au dépôt : `gh repo view ACS-Partners/acs-claude-skills`. Si ça échoue, arrête-toi et dis-moi de demander l'accès à Yannick (ou de lancer `gh auth login` puis `gh auth setup-git`).
+1. Vérifie que `git` est installé (`git --version`) ; sinon, dis-moi comment l'installer sur mon système et arrête-toi.
 2. Lance `claude plugin marketplace add ACS-Partners/acs-claude-skills`.
 3. Lance `claude plugin install deepdive@acs-skills`.
 4. Vérifie avec `claude plugin list` que deepdive est bien installé et activé, et montre-moi la sortie.
