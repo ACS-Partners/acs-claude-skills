@@ -1,0 +1,22 @@
+{
+  "name": "acs-skills",
+  "owner": {
+    "name": "ACS Partners"
+  },
+  "metadata": {
+    "description": "Skills Claude Code partagées entre associés ACS Partners.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "deepdive",
+      "description": "Exploration adverse multi-perspectives : thèse, antithèse, socratique, avocat du diable, synthèse — avec un contrat de sortie qui finit par une décision.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yannick Pinta"
+      },
+      "source": "./plugins/deepdive",
+      "category": "thinking"
+    }
+  ]
+}

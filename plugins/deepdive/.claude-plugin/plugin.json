@@ -1,0 +1,10 @@
+{
+  "name": "deepdive",
+  "version": "1.0.0",
+  "description": "Exploration adverse multi-perspectives qui se termine par une décision en trois lignes.",
+  "author": {
+    "name": "Yannick Pinta"
+  },
+  "repository": "https://github.com/ACS-Partners/acs-claude-skills",
+  "keywords": ["analysis", "decision", "socratic", "dialectic", "devil-advocate"]
+}
