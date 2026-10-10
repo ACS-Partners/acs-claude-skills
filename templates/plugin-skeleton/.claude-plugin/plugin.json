@@ -1,0 +1,10 @@
+{
+  "name": "SKILL_NAME",
+  "version": "1.0.0",
+  "description": "Une phrase : ce que fait la skill.",
+  "author": {
+    "name": "Prénom Nom"
+  },
+  "repository": "https://github.com/ACS-Partners/acs-claude-skills",
+  "keywords": []
+}
