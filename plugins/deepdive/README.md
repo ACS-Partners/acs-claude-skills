@@ -17,7 +17,7 @@ Autres méthodes et prompt à copier-coller : [README racine](../../README.md#in
 ## Utilisation
 
 ```
-/deepdive Faut-il migrer le monitoring VP vers Grafana Cloud ?
+/deepdive Faut-il migrer notre supervision vers un service cloud ?
 ```
 
 Ou en langage naturel : *« fais un deep dive sur… »*, *« approfondis… »*, *« analyse socratique de… »*,

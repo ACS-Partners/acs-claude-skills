@@ -34,7 +34,7 @@ Ajouter une entrée dans `.claude-plugin/marketplace.json` → `plugins[]` :
 
 Et une ligne dans le tableau « Skills disponibles » du `README.md` racine.
 
-## 3. Avant de partager une skill personnelle : la nettoyer
+## 3. Avant de partager une skill personnelle : la nettoyer (le dépôt est public)
 
 Une skill extraite d'un setup perso porte souvent des dépendances invisibles. Vérifier qu'elle ne contient :
 - aucun chemin absolu (`/home/…`, `~/.claude/…`) ni script local absent du plugin ;
